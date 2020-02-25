@@ -60,7 +60,7 @@ function Renderer(canvas, world, player)
 	this.texture.src = "media/texture.png";
 	this.textureSize;
     	this.texture.onload = function(){
-        	renderer.textureSize = this.width/16;
+        	renderer.textureSize = this.width/32;
     	}
 	
 	this.crosshair = new Image();
